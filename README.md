@@ -43,16 +43,16 @@ I learned alot of things during this challenge but at the some part of code i fa
 below are code snippets on that part i faced difficulty
 
 ```html
-<h1>Improve your front-end skills by building projects</h1>
-      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+<h1 class="heading">Improve your front-end skills by building projects</h1>
+      <p class="paragraph">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
 ```
 ```css
-h1{
+.heading{
   width:80%;
 }
 and
 
-p{
+.parapraph{
   width:85%;
 }
 ```
