@@ -37,7 +37,9 @@ First I write HTML code, like i created div element and put two elements (h1 and
 
 ### What I learned
 
-I learned alot of things during this challenge but at the some part i face some difficulty to align the h1 element and p element.
+I learned alot of things during this challenge but at the some part of code i face some difficulty to align the h1 element and p element....
+
+
 below are code snippets on that part i faced difficulty
 
 ```html
@@ -57,7 +59,7 @@ p{
 
 
 ### Continued development
-I want to continue focus on media quaries to make website responsive beacuase i haven't learn media quaries
+I want to continue focus on media quaries to make website responsive beacuase i haven't learn media quaries yet.
 
 ## Author
 
