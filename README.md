@@ -24,10 +24,15 @@ Project Design of QR Code Component using HTML and CSS.
 
 ### Links
 
-- Solution URL: [http://127.0.0.1:5500/index.html](https://your-solution-url.com)
+- Solution URL: [http://127.0.0.1:5500/QR-Code-Component/index.html](https://your-solution-url.com)
 
 ## My process
-First I write HTML code, like i created div element and put two elements (h1 and p) inside it. And then i write CSS for that HTML file to style that HTML file.
+
+
+First I write HTML code, like i created one main section in which i created a div inside that div i created two sections, one for image and one for text.
+And after writing HTML code successfully i wrote CSS code for this project.
+
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -43,17 +48,29 @@ I learned alot of things during this challenge but at the some part of code i fa
 below are code snippets on that part i faced difficulty
 
 ```html
-<h1 class="heading">Improve your front-end skills by building projects</h1>
-      <p class="paragraph">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+<section class="text">
+            <h1>Improve your front-end skills by building projects</h1>
+            <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+          </section>
 ```
 ```css
-.heading{
-  width:80%;
+.text{
+    text-align: center;
+    padding: 0 25px;
 }
-and
-
-.parapraph{
-  width:85%;
+h1{
+    color: hsl(218, 44%, 22%);
+    font-family: "Outfit", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+p{
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding:0 15px 30px;
+    color: hsl(216, 15%, 48%);
 }
 ```
 
